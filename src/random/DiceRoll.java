@@ -55,7 +55,7 @@ public class DiceRoll {
 			
 	    	 int randomChoice =randy.nextInt	((6-1)+1)+1;
 			// 2. Fix the code below so that it displays the correct image
-			if (randomChoice == ((6-1)+1)+1) {
+			if (randomChoice == 1) {
 				label.setIcon(threeImg);
 			} else if (randomChoice == 2) {
 				label.setIcon(twoImg);
